@@ -1,0 +1,46 @@
+.itens_text_input_contact{
+    margin-top: 16px;
+}
+
+.itens_text_input_contact h1{
+    
+    font-size: 18px;
+    color: $azul_escuro;
+}
+
+.itens_text_input_contact input{
+    width: 100%;
+    height: 48px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: 2px solid $cinza_escuro;
+    border-radius: 2px;
+    opacity: 1;
+    color: $azul_escuro;
+    transition: all 0.30s ease;
+    margin-bottom: 24px;
+    
+}
+
+.itens_text_input_contact input:focus{
+    outline: none; 
+    border: 2px solid $laranja_secundary;
+}
+
+.itens_text_input_contact textarea{
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: 2px solid $cinza_escuro;
+    border-radius: 2px;
+    opacity: 1;
+    color: $azul_escuro;
+    transition: all 0.30s ease;
+    padding-top: 8px;
+}
+
+.itens_text_input_contact textarea:focus{
+    outline: none; 
+    border: 2px solid $laranja_secundary;
+
+}
