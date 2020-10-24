@@ -9,6 +9,18 @@
     padding-bottom: 115px;
 }
 
+.navbar-background {
+    padding: 5px 20px;
+    background-color: $preto_footer !important;
+    transition: all 0.8s ease;
+}
+
+.menu-config{
+    background-color: transparent ;
+    transition: all 0.8s ease;
+
+}
+
 .text_itens_nav_header{
     color: $branco_claro !important;
     transition: all 0.8s ease;
@@ -133,4 +145,21 @@
     font-weight: bold;
     font-size: x-large;
     color: $branco_claro;
+}
+
+@media only screen and (orientation:portrait){
+
+    html, body{
+        overflow-x: hidden; 
+    }
+    
+    .item_text_section_header h1{
+        font-size: 65px;
+    }
+    
+    .item_text_section_header h2{
+        font-size: 65px;
+        
+    }
+    
 }

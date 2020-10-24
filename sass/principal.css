@@ -9,6 +9,19 @@
   padding-bottom: 115px;
 }
 
+.navbar-background {
+  padding: 5px 20px;
+  background-color: #0B0C13 !important;
+  -webkit-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+}
+
+.menu-config {
+  background-color: transparent;
+  -webkit-transition: all 0.8s ease;
+  transition: all 0.8s ease;
+}
+
 .text_itens_nav_header {
   color: #FFFFFF !important;
   -webkit-transition: all 0.8s ease;
@@ -148,6 +161,18 @@
   color: #FFFFFF;
 }
 
+@media only screen and (orientation: portrait) {
+  html, body {
+    overflow-x: hidden;
+  }
+  .item_text_section_header h1 {
+    font-size: 65px;
+  }
+  .item_text_section_header h2 {
+    font-size: 65px;
+  }
+}
+
 .date_principais_eventos h1 {
   font-size: 64px;
   color: #102733;
@@ -215,6 +240,25 @@
 .button_comprar_ingresso_bookings button:hover span::after {
   opacity: 1;
   right: 0;
+}
+
+@media only screen and (orientation: portrait) {
+  .date_principais_eventos h1 {
+    font-size: 36px;
+  }
+  .date_principais_eventos h2 {
+    font-size: 16px;
+  }
+  .text_event_principais_eventos h1 {
+    font-size: 18px;
+  }
+  .text_event_principais_eventos h1 a {
+    font-size: 12px;
+  }
+  .button_comprar_ingresso_bookings {
+    font-size: 12px;
+    margin-top: -10px;
+  }
 }
 
 .itens_text_input_contact {

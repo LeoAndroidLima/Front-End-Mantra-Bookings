@@ -63,5 +63,31 @@
 
 .button_comprar_ingresso_bookings button:hover span::after{
     opacity: 1;
-  right: 0;
+    right: 0;
+}
+
+@media only screen and (orientation:portrait){
+    .date_principais_eventos h1{
+        font-size: 36px;
+    }
+
+    .date_principais_eventos h2{
+        font-size: 16px;
+    }
+
+    .text_event_principais_eventos h1{
+        font-size: 18px;
+        
+    }
+
+    .text_event_principais_eventos h1 a{
+        font-size: 12px;
+        
+    }
+
+    .button_comprar_ingresso_bookings{
+        font-size: 12px;
+        margin-top: -10px;
+    }
+
 }
